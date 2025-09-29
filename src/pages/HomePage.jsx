@@ -80,7 +80,7 @@ const HomePage = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* Background Video/Image */}
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2000"
             alt="India Travel"
@@ -91,7 +91,7 @@ const HomePage = () => {
 
         {/* Parallax Elements */}
         <motion.div
-          className="absolute bottom-0 left-0 w-full h-64 z-10 opacity-40"
+          className="absolute bottom-0 left-0 w-full h-64 z-10 opacity-40 overflow-hidden"
           style={{ y: y1 }}
         >
           <img
