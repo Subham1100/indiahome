@@ -6,7 +6,7 @@
 
 html,
 body {
-  @apply overflow-x-hidden;
+  @apply -mx-0.5 overflow-x-hidden;
 }
 
 @layer base {
